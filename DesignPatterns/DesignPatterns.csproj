@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Basic\A.cs" />
+    <Compile Remove="Basic\Employee.cs" />
+    <Compile Remove="Singleton\Program.cs" />
+  </ItemGroup>
+
+</Project>
